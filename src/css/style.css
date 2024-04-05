@@ -1,0 +1,206 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+
+.container {
+  width: auto;
+  margin: 0 auto;
+  border: 1px solid #000; 
+  padding: 20px; 
+}
+
+h3 {
+  font-size: 1.3em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: black
+}
+
+.cards {
+  margin: 10px 0;
+  height: 25px
+}
+
+.cards li {
+  display: block;
+  float: left
+}
+
+.card {
+  float: left;
+  width: 39px;
+  height: 25px;
+  text-indent: -9999px;
+  background-position: 0 0;
+  margin-right: 4px
+}
+
+ol,ul {
+  margin-top: 0;
+  margin-bottom: 10px
+}
+
+ol ol,ol ul,ul ol,ul ul {
+  margin-bottom: 0
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none
+}
+
+.card.visa {
+  background-image: url(../images/card-visa.gif)
+}
+
+.card.amex {
+  background-image: url(../images/card-amex.gif)
+}
+
+.card.jcb {
+  background-image: url(../images/card-jcb.gif)
+}
+
+.card.master {
+  background-image: url(../images/card-mastercard.gif)
+}
+
+.card.discover {
+  background-image: url(../images/card-discover.gif)
+}
+
+.card.diners_club {
+  background-image: url(../images/card-diners.gif)
+}
+
+.card.world {
+  background-image: url(../images/card-world.jpg)
+}
+
+.card.cdisabled {
+  background-position: 0 -25px;
+  opacity: .3
+}
+
+.form-inline .form-group {
+    display:inline-block;
+    margin-bottom: 0;
+    vertical-align: middle
+}
+
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    vertical-align: middle
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+
+.form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1
+}
+
+.form-control:-ms-input-placeholder {
+  color: #999
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #999
+}
+
+.form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control {
+  background-color: #eee;
+  opacity: 1
+}
+
+.form-control[disabled],fieldset[disabled] .form-control {
+  cursor: not-allowed
+}
+
+textarea.form-control {
+  height: auto
+}
+
+#submitform {
+  margin-left: 10px
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none
+}
+
+a:focus,a:hover {
+  color: #23527c;
+  text-decoration: underline
+}
+
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px
+}
+
