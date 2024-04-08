@@ -59,31 +59,31 @@ ol ol,ol ul,ul ol,ul ul {
 }
 
 .card.visa {
-  background-image: url(../images/card-visa.gif)
+  background-image: url(5e6039b25c1afd4c6a98.gif)
 }
 
 .card.amex {
-  background-image: url(../images/card-amex.gif)
+  background-image: url(2bd22590c95e3561bab8.gif)
 }
 
 .card.jcb {
-  background-image: url(../images/card-jcb.gif)
+  background-image: url(e14d52ab2d89d044b433.gif)
 }
 
 .card.master {
-  background-image: url(../images/card-mastercard.gif)
+  background-image: url(a4f14bb8a4efd8b8a073.gif)
 }
 
 .card.discover {
-  background-image: url(../images/card-discover.gif)
+  background-image: url(d2b0bca54a895557bff6.gif)
 }
 
 .card.diners_club {
-  background-image: url(../images/card-diners.gif)
+  background-image: url(8b3916de428514df340b.gif)
 }
 
 .card.world {
-  background-image: url(../images/card-world.jpg)
+  background-image: url(faffca98e66ab0361edd.jpg)
 }
 
 .card.cdisabled {
@@ -203,4 +203,13 @@ a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px
 }
+
+.correct {
+  background-color: #acffac;
+}
+
+.incorrect {
+  background-color: #fabcbc;
+}
+
 
