@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    const input = document.querySelector(".form-control").value;
-    const data = new Serializer(input);
+    const input = document.querySelector(".form-control");
+    const data = new Serializer(input.value);
     const cardName = data.verification();
     const cards = document.querySelectorAll(".card");
 
@@ -15,6 +15,12 @@ document.addEventListener("DOMContentLoaded", () => {
         card.classList.add("cdisabled");
       } else {
         card.classList.remove("cdisabled");
+        input.classList.remove("incorrect");
+        input.classList.add("correct");
+      }
+      if (cardName === "Unknown") {
+        input.classList.remove("correct");
+        input.classList.add("incorrect");
       }
     });
   });

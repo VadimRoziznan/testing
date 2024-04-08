@@ -204,3 +204,11 @@ a:focus {
   outline-offset: -2px
 }
 
+.correct {
+  background-color: #acffac;
+}
+
+.incorrect {
+  background-color: #fabcbc;
+}
+

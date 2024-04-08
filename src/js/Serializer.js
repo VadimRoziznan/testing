@@ -32,7 +32,11 @@ export default class Serializer {
       this.element.length < 19
     ) {
       return "Maestro";
-    } else if (/^(2\d)/.test(this.element) && this.element.length > 15 && this.element.length < 19) {
+    } else if (
+      /^(2\d)/.test(this.element) &&
+      this.element.length > 15 &&
+      this.element.length < 19
+    ) {
       return "world";
     } else {
       return "Unknown";
