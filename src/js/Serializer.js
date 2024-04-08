@@ -27,6 +27,7 @@ export default class Serializer {
     } else if (
       /^(5018|5020|5038|5893|6304|6759|676[1-3]|0604.{10,16}$\d)/.test(
         this.element,
+        // eslint-disable-next-line
       ) &&
       this.element.length > 11 &&
       this.element.length < 19

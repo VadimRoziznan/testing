@@ -5,7 +5,8 @@ jest.setTimeout(30000);
 describe('Inn Form', () => {
   let browser;
   let page;
-
+  
+// eslint-disable-next-line
   beforeEach(async () => {
     browser = await puppeteer.launch({
       headless: false,
